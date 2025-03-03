@@ -1,0 +1,199 @@
+{
+  "pageDimensions": [
+    1850,
+    1200
+  ],
+  "bubbleDimensions": [
+    37,
+    20
+  ],
+  "customLabels": {
+    "IDStudent": ["roll1..6"],
+    "IDExam": ["roll7..9"],
+    "q41": ["q41_1","q41_2","q41_3","q41_4"],
+    "q42": ["q42_1","q42_2","q42_3","q42_4"],
+    "q43": ["q43_1","q43_2","q43_3","q43_4"],
+    "q44": ["q44_1","q44_2","q44_3","q44_4"],
+    "q45": ["q45_1","q45_2","q45_3","q45_4"],
+    "q46": ["q46_1","q46_2","q46_3","q46_4"]
+
+  },
+
+  "fieldBlocks": {
+    "IDStudent": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": ["roll1..6"],
+      "bubblesGap": 23.5,
+      "labelsGap": 34.5,
+      "origin": [1340,125]
+    },
+    "IDExam": {
+      "fieldType": "QTYPE_INT",
+      "fieldLabels": ["roll7..9"],
+      "bubblesGap": 23.5,
+      "labelsGap": 34.5,
+      "origin": [1600,125]
+    },
+    "MCQBlock1_10": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [247,450],
+      "fieldLabels": ["q1..10"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock11_20": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [627,450],
+      "fieldLabels": ["q11..20"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock21_30": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [1005,450],
+      "fieldLabels": ["q21..30"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock31_40": {
+      "fieldType": "QTYPE_MCQ4",
+      "origin": [1385,450],
+      "fieldLabels": ["q31..40"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF1": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [245,713],
+      "fieldLabels": ["1a","1b","1c","1d"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF2": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [396,713],
+      "fieldLabels": ["2a","2b","2c","2d"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF3": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [627,713],
+      "fieldLabels": ["3a","3b","3c","3d"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF4": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [777,713],
+      "fieldLabels": ["4a","4b","4c","4d"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF5": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [1005,713],
+      "fieldLabels": ["5a","5b","5c","5d"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF6": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [1156,713],
+      "fieldLabels": ["6a","6b","6c","6d"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF7": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [1385,713],
+      "fieldLabels": ["7a","7b","7c","7d"],
+      "bubblesGap": 75,
+      "labelsGap": 18
+    },
+
+    "MCQBlock_TF8": {
+      "fieldType": "QTYPE_BOOLEAN",
+      "origin": [1540,713],
+      "fieldLabels":["8a","8b","8c","8d"],
+      "bubblesGap": 65,
+      "labelsGap": 19
+    },
+
+    "Int_Block_Q41": {
+      "fieldType": "QTYPE_INT1",
+      "fieldLabels":["q41_1","q41_2","q41_3","q41_4"],
+      "bubblesGap": 18.5,
+      "labelsGap": 52,
+      "origin": [228,872]
+    },
+
+    "Int_Block_Q42": {
+      "fieldType": "QTYPE_INT1",
+      "fieldLabels":["q42_1","q42_2","q42_3","q42_4"],
+      "bubblesGap": 18.5,
+      "labelsGap": 52,
+      "origin": [473, 872]
+    },
+
+    "Int_Block_Q43": {
+      "fieldType": "QTYPE_INT1",
+      "fieldLabels":["q43_1","q43_2","q43_3","q43_4"],
+      "bubblesGap": 18.5,
+      "labelsGap": 52,
+      "origin": [717, 872]
+    },
+
+    "Int_Block_Q44": {
+      "fieldType": "QTYPE_INT1",
+      "fieldLabels":["q44_1","q44_2","q44_3","q44_4"],
+      "bubblesGap": 18.5,
+      "labelsGap": 52,
+      "origin": [960, 872]
+    },
+
+    "Int_Block_Q45": {
+      "fieldType": "QTYPE_INT1",
+      "fieldLabels":["q45_1","q45_2","q45_3","q45_4"],
+      "bubblesGap": 18.5,
+      "labelsGap": 52,
+      "origin": [1204, 872]
+    },
+
+    "Int_Block_Q46": {
+      "fieldType": "QTYPE_INT1",
+      "fieldLabels":["q46_1","q46_2","q46_3","q46_4"],
+      "bubblesGap": 18.5,
+      "labelsGap": 52,
+      "origin": [1447, 872]
+    }
+  },
+
+   "outputColumns": [
+     "IDStudent",
+     "IDExam",
+     "q1","q2","q3","q4","q5","q6","q7","q8","q9","q10",
+     "q11","q12","q13","q14","q15","q16","q17","q18","q19","q20",
+     "q21","q22","q23","q24","q25","q26","q27","q28","q29","q30",
+     "q31","q32","q33","q34","q35","q36","q37","q38","q39","q40",
+     "1a","1b","1c","1d",
+     "2a","2b","2c","2d",
+     "3a","3b","3c","3d",
+     "4a","4b","4c","4d",
+     "5a","5b","5c","5d",
+     "6a","6b","6c","6d",
+     "7a","7b","7c","7d",
+     "8a","8b","8c","8d",
+     "q41","q42","q43","q44","q45","q46"
+   ]
+}
