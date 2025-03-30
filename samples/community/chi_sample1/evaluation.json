@@ -1,0 +1,61 @@
+{
+  "source_type": "csv",
+  "options": {
+    "answer_key_csv_path": "answer_key_chi.csv",
+    "should_explain_scoring": true
+  },
+  "marking_schemes": {
+    "DEFAULT": {
+      "correct": "0.2",
+      "incorrect": "0",
+      "unmarked": "0"
+    },
+    "QTYPE_MCQ4":{
+      "questions": [
+        "q1..40"
+      ],
+      "marking": {
+        "correct": "0.25",
+        "incorrect": "0",
+        "unmarked": "0"
+      }
+    },
+    "QTYPE_TF": {
+      "questions": [
+        "tf1..8"
+      ],
+      "marking": {
+        "1": {
+          "correct": "0.1",
+          "incorrect": "0",
+          "unmarked": "0"
+        },
+        "2": {
+          "correct": "0.25",
+          "incorrect": "0",
+          "unmarked": "0"
+        },
+        "3": {
+          "correct": "0.5",
+          "incorrect": "0",
+          "unmarked": "0"
+        },
+        "4": {
+          "correct": "1.0",
+          "incorrect": "0",
+          "unmarked": "0"
+        }
+      }
+    },
+    "QTYPE_INT": {
+      "questions": [
+        "q41..46"
+      ],
+      "marking": {
+        "correct": 0.5,
+        "incorrect": 0,
+        "unmarked": 0
+      }
+    }
+  }
+}
