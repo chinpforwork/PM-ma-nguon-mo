@@ -155,9 +155,9 @@ class AnswerMatcher:
         else:
             return "incorrect"
 
-    def get_tf_correct_verdict(self,marked_answer):
+        def get_tf_correct_verdict(self,marked_answer):
         allowed_answer = self.answer_item
-        if marked_answer == self.empty_val or len(marked_answer) != 4:
+        if marked_answer == self.empty_val:
             return "unmarked"
         correct_count = 0
         for i in range(4):
